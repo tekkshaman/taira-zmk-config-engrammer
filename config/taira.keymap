@@ -21,7 +21,7 @@
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <1 2>;
+            if-layers = <1 5>;
             then-layer = <3>;
         };
     };
@@ -48,7 +48,7 @@
 &kp EQUAL  &kp N1     &kp N2         &kp N3      &kp N4  &kp N5                                                                                    &kp N6         &kp N7  &kp N8                &kp N9            &kp N0             &kp BACKSLASH
 &kp GRAVE  &kp B      &kp Y          &kp O       &kp U   &kp SQT                                                                                   &kp SEMICOLON  &kp L   &kp D                 &kp W             &kp V              &kp Z
 &kp RCTRL  &kp C      &kp I          &kp E       &kp A   &kp COMMA                                                                                 &kp PERIOD     &kp H   &kp T                 &kp S             &kp N              &kp Q
-&kp LSHFT  &kp G      &kp X          &kp J       &kp K   &kp MINUS                   &kp HOME    &mo 5       &lt 1 LEFT_SHIFT  &kp END             &kp SLASH      &kp R   &kp M                 &kp F             &kp P              &kp RSHFT
+&kp LSHFT  &kp G      &kp X          &kp J       &kp K   &kp MINUS                   &kp HOME    &to 5       &lt 1 LEFT_SHIFT  &kp END             &kp SLASH      &kp R   &kp M                 &kp F             &kp P              &kp RSHFT
 &kp LWIN   &kp PG_UP  &kp PAGE_DOWN  &kp ESCAPE                     &lt 1 BACKSPACE  &kp DELETE  &kp ESCAPE  &kp ENTER         &kp TAB  &kp SPACE                         &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS
             >;
         };
